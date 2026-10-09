@@ -1,0 +1,15 @@
+{
+  "name": "yiwu-source-procurement-mcp",
+  "version": "0.5.0",
+  "private": false,
+  "license": "MIT",
+  "keywords": ["mcp", "procurement", "b2b", "supply-chain", "agent", "buyingmesh"],
+  "files": ["sdk-server.mjs", "protocol.mjs", "README.md", "LICENSE", "SECURITY.md", "CONTRIBUTING.md", ".env.example", "test"],
+  "bin": {"yiwu-source-mcp": "sdk-server.mjs"},
+  "publishConfig": {"access": "public"},
+  "type": "module",
+  "description": "BuyingMesh procurement MCP adapter for structured products, suppliers, quotes, orders and fulfillment",
+  "scripts": {"start": "node sdk-server.mjs", "start:legacy": "node server.mjs", "start:http": "node sdk-server.mjs --http", "test": "node --test", "check": "node --check sdk-server.mjs && node --check protocol.mjs"},
+  "engines": {"node": ">=20"},
+  "dependencies": {"@modelcontextprotocol/sdk": "^1.32.0", "zod": "^4.6.5"}
+}
