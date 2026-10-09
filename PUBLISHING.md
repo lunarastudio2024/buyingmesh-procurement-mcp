@@ -8,7 +8,11 @@ npm test
 npm pack --dry-run
 ```
 
-The package is intentionally unscoped and public-ready as `yiwu-source-procurement-mcp`. Before publishing to npm, verify the name is available and add the final repository URL to `package.json`.
+The package is intentionally unscoped and public-ready as `yiwu-source-procurement-mcp`.
+
+Source repository: <https://github.com/lunarastudio2024/buyingmesh-procurement-mcp>.
+
+Before publishing to npm, verify the package name is still available and run the checks above.
 
 ## Remote MCP
 
